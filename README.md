@@ -1,6 +1,16 @@
 # BE
 ⚙️ BackEnd 코드
 
+## Branch
+
+| **머릿말** | **설명** |
+| --- | --- |
+| main | 서비스 브랜치 |
+| release | 배포 전 작업 기준 |
+| feature | 기능 단위 구현 |
+| hotfix | 서비스 중 긴급 수정 건에 대한 처리 |
+| BE | 백엔드 개발 부분 |
+
 ## 🤝 Commit Convention
 
 | 머릿말           | 설명                                                                      |
@@ -29,3 +39,14 @@
 
 
 </div>
+
+### 예시
+
+```markdown
+Feat: "추가 로그인 함수"  ---- 제목
+
+로그인 API 개발           ---- 본문
+
+Resolves: #123             ---- 꼬리말
+Ref: #456
+Related to: #48, #45
